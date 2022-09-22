@@ -1,0 +1,28 @@
+Description: replace ava by tape
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2021-11-17
+
+--- a/tests/tests.js
++++ b/tests/tests.js
+@@ -1,4 +1,4 @@
+-const test = require('ava');
++const test = require('tape');
+ const regenerate = require('regenerate');
+ 
+ test('regenerate-unicode-properties', t => {
+@@ -13,13 +13,12 @@
+ 	);
+ 	t.throws(
+ 		() => require('../Invalid_Property/X.js'),
+-		{ instanceOf: Error }
+ 	);
+ 	t.throws(
+ 		() => require('../Script_Extensions/Invalid_Property_Value.js'),
+-		{ instanceOf: Error }
+ 	);
+ 	t.true(
+ 		/^\d+\.\d+\.\d+$/.test(require('../unicode-version.js'))
+ 	);
++	t.end();
+ });
