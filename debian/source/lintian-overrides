@@ -1,0 +1,16 @@
+# Data
+source-is-missing *Property_of_Strings/Basic_Emoji.js*
+source-is-missing *Property_of_Strings/RGI_Emoji.js*
+source-is-missing *Property_of_Strings/RGI_Emoji_Flag_Sequence.js*
+source-is-missing *Property_of_Strings/RGI_Emoji_Modifier_Sequence.js*
+source-is-missing *Property_of_Strings/RGI_Emoji_ZWJ_Sequence.js*
+source-contains-prebuilt-javascript-object *Property_of_Strings/Basic_Emoji.js*
+source-contains-prebuilt-javascript-object *Property_of_Strings/RGI_Emoji.js*
+source-contains-prebuilt-javascript-object *Property_of_Strings/RGI_Emoji_Flag_Sequence.js*
+source-contains-prebuilt-javascript-object *Property_of_Strings/RGI_Emoji_Modifier_Sequence.js*
+source-contains-prebuilt-javascript-object *Property_of_Strings/RGI_Emoji_ZWJ_Sequence.js*
+very-long-line-length-in-source-file *Property_of_Strings/Basic_Emoji.js*
+very-long-line-length-in-source-file *Property_of_Strings/RGI_Emoji.js*
+very-long-line-length-in-source-file *Property_of_Strings/RGI_Emoji_Flag_Sequence.js*
+very-long-line-length-in-source-file *Property_of_Strings/RGI_Emoji_Modifier_Sequence.js*
+very-long-line-length-in-source-file *Property_of_Strings/RGI_Emoji_ZWJ_Sequence.js*
