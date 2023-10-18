@@ -1,3 +1,29 @@
+node-regenerate-unicode-properties (10.1.0+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 10.1.0+ds
+  * Require node-unicode-15.0.0
+  * Breaks: node-regexpu-core < 5.2.1~
+
+ -- Yadd <yadd@debian.org>  Fri, 16 Sep 2022 18:04:38 +0200
+
+node-regenerate-unicode-properties (10.0.1+ds-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Thu, 24 Feb 2022 10:04:38 +0100
+
+node-regenerate-unicode-properties (10.0.1+ds-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 10.0.1+ds
+  * Add lintian overrides
+  * Breaks: node-regexpu-core < 4.8.0-3~
+
+ -- Yadd <yadd@debian.org>  Fri, 11 Feb 2022 14:23:50 +0100
+
 node-regenerate-unicode-properties (9.0.0+ds-1) unstable; urgency=medium
 
   * Team upload

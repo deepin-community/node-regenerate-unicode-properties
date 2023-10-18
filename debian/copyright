@@ -6,11 +6,12 @@ Comment: pre-built, but we build them
 Files-Excluded: Binary_Property General_Category Script* *-version.js index.js
 
 Files: *
-Copyright: 2017-2018 Mathias Bynens (https://mathiasbynens.be/)
+Copyright: Mathias Bynens (https://mathiasbynens.be/)
 License: Expat
 
 Files: debian/*
 Copyright: 2017-2018 Julien Puydt <jpuydt@debian.org>
+ 2022 Yadd <yadd@debian.org>
 License: Expat
 
 License: Expat
